@@ -40,7 +40,7 @@ const showRecipe = async function(){
 
 
 
-  
+  console.log('i am test');
 
   //   console.log(completefetch.id)
     //   console.log(completefetch.title)
