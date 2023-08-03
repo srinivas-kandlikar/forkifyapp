@@ -1,4 +1,4 @@
-6057
+6060
 53C:\Users\Owner\Desktop\javascript\starter\.prettierrc133319533538626985 0
 82C:\Users\Owner\Desktop\javascript\starter\node_modules\@swc\helpers\_\_await_value133352984657274684 1
 99C:\Users\Owner\Desktop\javascript\starter\node_modules\@babel\highlight\node_modules\supports-color133352984595025797 1
@@ -26,7 +26,7 @@
 90C:\Users\Owner\Desktop\javascript\starter\node_modules\htmlparser2\lib\WritableStream.d.ts133352984617539844 0
 91C:\Users\Owner\Desktop\javascript\starter\node_modules\caniuse-lite\data\features\tls1-2.js133352984668976975 0
 102C:\Users\Owner\Desktop\javascript\starter\node_modules\css-select\lib\pseudo-selectors\subselects.d.ts133352984647885821 0
-46C:\Users\Owner\Desktop\javascript\starter\dist133352986655401170 1
+46C:\Users\Owner\Desktop\javascript\starter\dist133355558413092415 1
 86C:\Users\Owner\Desktop\javascript\starter\node_modules\source-map-js\lib\quick-sort.js133352984601634591 0
 99C:\Users\Owner\Desktop\javascript\starter\node_modules\csso\node_modules\css-tree\lib\syntax\atrule133352984655375103 1
 72C:\Users\Owner\Desktop\javascript\starter\node_modules\entities\lib\maps133352984612842586 1
@@ -56,16 +56,16 @@
 91C:\Users\Owner\Desktop\javascript\starter\node_modules\@parcel\codeframe\test\fixtures\a.js133352984587693392 0
 63C:\Users\Owner\Desktop\javascript\starter\node_modules\chokidar133352986621155499 1
 81C:\Users\Owner\Desktop\javascript\starter\node_modules\node-releases\package.json133352984591832914 0
-52C:\Users\Owner\Desktop\javascript\starter\index.html133319533541741906 0
+52C:\Users\Owner\Desktop\javascript\starter\index.html133354785325630150 0
 77C:\Users\Owner\Desktop\javascript\starter\node_modules\timsort\src\timsort.js133352984605201622 0
 111C:\Users\Owner\Desktop\javascript\starter\node_modules\csso\lib\restructure\prepare\createDeclarationIndexer.js133352984642503271 0
-54C:\Users\Owner\Desktop\javascript\starter\node_modules133352986626777602 1
+54C:\Users\Owner\Desktop\javascript\starter\node_modules133353001076830646 1
 102C:\Users\Owner\Desktop\javascript\starter\node_modules\csso\node_modules\css-tree\cjs\utils\string.cjs133352984649297570 0
 114C:\Users\Owner\Desktop\javascript\starter\node_modules\csso\node_modules\css-tree\lib\syntax\node\ClassSelector.js133352984651359637 0
 86C:\Users\Owner\Desktop\javascript\starter\node_modules\caniuse-lite\data\regions\GL.js133352984660271633 0
 96C:\Users\Owner\Desktop\javascript\starter\node_modules\@babel\highlight\node_modules\chalk\types133352984601472363 1
-59C:\Users\Owner\Desktop\javascript\starter\package-lock.json133352986627789736 0
-54C:\Users\Owner\Desktop\javascript\starter\package.json133352986626922350 0
+59C:\Users\Owner\Desktop\javascript\starter\package-lock.json133353001077863527 0
+54C:\Users\Owner\Desktop\javascript\starter\package.json133355558408515486 0
 74C:\Users\Owner\Desktop\javascript\starter\node_modules\color-name\index.js133352984585914156 0
 88C:\Users\Owner\Desktop\javascript\starter\node_modules\caniuse-lite\data\features\let.js133352984663378192 0
 114C:\Users\Owner\Desktop\javascript\starter\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_dump.1133352984620905062 0
@@ -178,7 +178,7 @@
 102C:\Users\Owner\Desktop\javascript\starter\node_modules\@parcel\core\lib\requests\ParcelBuildRequest.js133352984649605065 0
 72C:\Users\Owner\Desktop\javascript\starter\node_modules\binary-extensions133352986620929007 1
 102C:\Users\Owner\Desktop\javascript\starter\node_modules\caniuse-lite\data\features\template-literals.js133352984668597546 0
-62C:\Users\Owner\Desktop\javascript\starter\src\js\controller.js133319533543902075 0
+62C:\Users\Owner\Desktop\javascript\starter\src\js\controller.js133354822089415672 0
 77C:\Users\Owner\Desktop\javascript\starter\node_modules\escalade\dist\index.js133352984586176007 0
 83C:\Users\Owner\Desktop\javascript\starter\node_modules\cosmiconfig\dist\Explorer.js133352984593033429 0
 102C:\Users\Owner\Desktop\javascript\starter\node_modules\@babel\helper-validator-identifier\lib\index.js133352984596417683 0
@@ -188,7 +188,7 @@
 59C:\Users\Owner\Desktop\javascript\starter\node_modules\.bin133352986626251891 1
 79C:\Users\Owner\Desktop\javascript\starter\node_modules\@parcel\fs\src\NodeFS.js133352984607117557 0
 144C:\Users\Owner\Desktop\javascript\starter\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\PseudoElementSelector.js133352984649297570 0
-73C:\Users\Owner\Desktop\javascript\starter\node_modules\.package-lock.json133352986628273975 0
+73C:\Users\Owner\Desktop\javascript\starter\node_modules\.package-lock.json133353001078450284 0
 84C:\Users\Owner\Desktop\javascript\starter\node_modules\svgo\plugins\removeDoctype.js133352984633095490 0
 86C:\Users\Owner\Desktop\javascript\starter\node_modules\caniuse-lite\data\regions\CF.js133352984648877957 0
 104C:\Users\Owner\Desktop\javascript\starter\node_modules\caniuse-lite\data\features\css-read-only-write.js133352984654632831 0
@@ -206,20 +206,20 @@
 97C:\Users\Owner\Desktop\javascript\starter\node_modules\caniuse-lite\data\features\css3-tabsize.js133352984656226854 0
 94C:\Users\Owner\Desktop\javascript\starter\node_modules\caniuse-lite\data\features\autofocus.js133352984635638146 0
 89C:\Users\Owner\Desktop\javascript\starter\node_modules\htmlnano\lib\modules\minifyJson.js133352984618894404 0
-72C:\Users\Owner\Desktop\javascript\starter\node_modules\@msgpackr-extract133352986626821086 1
+72C:\Users\Owner\Desktop\javascript\starter\node_modules\@msgpackr-extract133353001076884312 1
 73C:\Users\Owner\Desktop\javascript\starter\node_modules\css-tree\lib\utils133352984656216057 1
 90C:\Users\Owner\Desktop\javascript\starter\node_modules\source-map\dist\source-map.debug.js133352984620871287 0
 103C:\Users\Owner\Desktop\javascript\starter\node_modules\@swc\helpers\esm\_possible_constructor_return.js133352984654736697 0
 114C:\Users\Owner\Desktop\javascript\starter\node_modules\@swc\helpers\_\_class_check_private_static_field_descriptor133352984657717516 1
 133C:\Users\Owner\Desktop\javascript\starter\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\function\expression.js133352984636890651 0
 75C:\Users\Owner\Desktop\javascript\starter\node_modules\electron-to-chromium133352984614827572 1
-62C:\Users\Owner\Desktop\javascript\starter\node_modules\@parcel133352986626821086 1
+62C:\Users\Owner\Desktop\javascript\starter\node_modules\@parcel133353001076874309 1
 86C:\Users\Owner\Desktop\javascript\starter\node_modules\@parcel\runtime-browser-hmr\lib133352984597707985 1
 73C:\Users\Owner\Desktop\javascript\starter\node_modules\@swc\core\index.js133352984591865603 0
 105C:\Users\Owner\Desktop\javascript\starter\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\COPYRIGHT133352984596028541 0
 77C:\Users\Owner\Desktop\javascript\starter\node_modules\css-tree\lib\convertor133352984653727095 1
 108C:\Users\Owner\Desktop\javascript\starter\node_modules\css-select\node_modules\dom-serializer\lib\index.d.ts133352984615730972 0
-60C:\Users\Owner\Desktop\javascript\starter\node_modules\@lmdb133352986626821086 1
+60C:\Users\Owner\Desktop\javascript\starter\node_modules\@lmdb133353001076894276 1
 74C:\Users\Owner\Desktop\javascript\starter\node_modules\tslib\tslib.es6.mjs133352984607963229 0
 90C:\Users\Owner\Desktop\javascript\starter\node_modules\lmdb\node_modules\msgpackr\index.js133352984610582333 0
 75C:\Users\Owner\Desktop\javascript\starter\node_modules\csso\cjs\restructure133352984632763553 1
@@ -250,7 +250,7 @@
 88C:\Users\Owner\Desktop\javascript\starter\node_modules\postcss-value-parser\lib\index.js133352984586636876 0
 60C:\Users\Owner\Desktop\javascript\starter\node_modules\clone133352984597910404 1
 93C:\Users\Owner\Desktop\javascript\starter\node_modules\csso\cjs\restructure\prepare\index.cjs133352984625778108 0
-59C:\Users\Owner\Desktop\javascript\starter\node_modules\@swc133352986626821086 1
+59C:\Users\Owner\Desktop\javascript\starter\node_modules\@swc133353001076854119 1
 123C:\Users\Owner\Desktop\javascript\starter\node_modules\css-select\node_modules\entities\lib\generated\decode-data-html.d.ts133352984641139824 0
 95C:\Users\Owner\Desktop\javascript\starter\node_modules\@swc\helpers\cjs\_is_native_function.cjs133352984639931278 0
 66C:\Users\Owner\Desktop\javascript\starter\node_modules\ansi-styles133352984594514379 1
@@ -2797,7 +2797,7 @@
 73C:\Users\Owner\Desktop\javascript\starter\node_modules\dotenv\lib\main.js133352984603904671 0
 87C:\Users\Owner\Desktop\javascript\starter\node_modules\.bin\download-lmdb-prebuilds.ps1133352984672254893 0
 100C:\Users\Owner\Desktop\javascript\starter\node_modules\csso\node_modules\css-tree\lib\utils\clone.js133352984651475018 0
-64C:\Users\Owner\Desktop\javascript\starter\dist\logo.726d37a8.png133352986654942344 0
+64C:\Users\Owner\Desktop\javascript\starter\dist\logo.726d37a8.png133355558412811761 0
 67C:\Users\Owner\Desktop\javascript\starter\node_modules\domutils\lib133352984624284091 1
 71C:\Users\Owner\Desktop\javascript\starter\node_modules\domutils\LICENSE133352984583201238 0
 76C:\Users\Owner\Desktop\javascript\starter\node_modules\domutils\package.json133352984607248426 0
@@ -4346,7 +4346,7 @@
 88C:\Users\Owner\Desktop\javascript\starter\node_modules\caniuse-lite\data\features\ime.js133352984661667047 0
 92C:\Users\Owner\Desktop\javascript\starter\node_modules\caniuse-lite\data\features\imports.js133352984661735419 0
 107C:\Users\Owner\Desktop\javascript\starter\node_modules\caniuse-lite\data\features\indeterminate-checkbox.js133352984661787962 0
-65C:\Users\Owner\Desktop\javascript\starter\dist\index.f7626f62.css133352986654942344 0
+65C:\Users\Owner\Desktop\javascript\starter\dist\index.f7626f62.css133355558412728727 0
 94C:\Users\Owner\Desktop\javascript\starter\node_modules\caniuse-lite\data\features\indexeddb.js133352984661820328 0
 95C:\Users\Owner\Desktop\javascript\starter\node_modules\caniuse-lite\data\features\indexeddb2.js133352984661852041 0
 97C:\Users\Owner\Desktop\javascript\starter\node_modules\caniuse-lite\data\features\inline-block.js133352984661852041 0
@@ -5052,7 +5052,7 @@
 101C:\Users\Owner\Desktop\javascript\starter\node_modules\@parcel\transformer-react-refresh-wrap\LICENSE133352984583451414 0
 106C:\Users\Owner\Desktop\javascript\starter\node_modules\@parcel\transformer-react-refresh-wrap\package.json133352984605468460 0
 128C:\Users\Owner\Desktop\javascript\starter\node_modules\@parcel\transformer-react-refresh-wrap\src\ReactRefreshWrapTransformer.js133352984601714794 0
-68C:\Users\Owner\Desktop\javascript\starter\dist\index.62406edb.js.map133352986655190621 0
+68C:\Users\Owner\Desktop\javascript\starter\dist\index.62406edb.js.map133354776574746905 0
 116C:\Users\Owner\Desktop\javascript\starter\node_modules\@parcel\transformer-react-refresh-wrap\src\helpers\helpers.js133352984592314809 0
 105C:\Users\Owner\Desktop\javascript\starter\node_modules\@parcel\transformer-react-refresh-wrap\lib\helpers133352984586931635 1
 128C:\Users\Owner\Desktop\javascript\starter\node_modules\@parcel\transformer-react-refresh-wrap\lib\ReactRefreshWrapTransformer.js133352984597753752 0
@@ -6035,7 +6035,7 @@
 85C:\Users\Owner\Desktop\javascript\starter\node_modules\@babel\code-frame\package.json133352984596335151 0
 76C:\Users\Owner\Desktop\javascript\starter\node_modules\.bin\browserslist.cmd133352984671682188 0
 67C:\Users\Owner\Desktop\javascript\starter\node_modules\.bin\js-yaml133352984671922885 0
-70C:\Users\Owner\Desktop\javascript\starter\dist\starter.3464ddca.js.map133352986655300046 0
+70C:\Users\Owner\Desktop\javascript\starter\dist\starter.3464ddca.js.map133354776574920013 0
 105C:\Users\Owner\Desktop\javascript\starter\node_modules\.bin\node-gyp-build-optional-packages-optional.cmd133352984671922885 0
 105C:\Users\Owner\Desktop\javascript\starter\node_modules\.bin\node-gyp-build-optional-packages-optional.ps1133352984671922885 0
 97C:\Users\Owner\Desktop\javascript\starter\node_modules\.bin\node-gyp-build-optional-packages-test133352984671922885 0
@@ -6050,9 +6050,12 @@
 70C:\Users\Owner\Desktop\javascript\starter\node_modules\.bin\semver.cmd133352984671922885 0
 70C:\Users\Owner\Desktop\javascript\starter\node_modules\.bin\semver.ps1133352984671922885 0
 68C:\Users\Owner\Desktop\javascript\starter\node_modules\.bin\svgo.ps1133352984672002900 0
-67C:\Users\Owner\Desktop\javascript\starter\dist\favicon.8b2f57bf.png133352986654942344 0
-65C:\Users\Owner\Desktop\javascript\starter\dist\icons.21bad73c.svg133352986654942344 0
-64C:\Users\Owner\Desktop\javascript\starter\dist\index.62406edb.js133352986654942344 0
-69C:\Users\Owner\Desktop\javascript\starter\dist\index.f7626f62.css.map133352986655190621 0
-57C:\Users\Owner\Desktop\javascript\starter\dist\index.html133352986655300046 0
-66C:\Users\Owner\Desktop\javascript\starter\dist\starter.3464ddca.js133352986655066031 0
+67C:\Users\Owner\Desktop\javascript\starter\dist\favicon.8b2f57bf.png133355558412768674 0
+65C:\Users\Owner\Desktop\javascript\starter\dist\icons.21bad73c.svg133355558412618120 0
+65C:\Users\Owner\Desktop\javascript\starter\dist\icons.dfd7a6db.svg133354787030316012 0
+64C:\Users\Owner\Desktop\javascript\starter\dist\index.62406edb.js133354776574466856 0
+64C:\Users\Owner\Desktop\javascript\starter\dist\index.e37f48ea.js133355558412698739 0
+68C:\Users\Owner\Desktop\javascript\starter\dist\index.e37f48ea.js.map133355558412969638 0
+69C:\Users\Owner\Desktop\javascript\starter\dist\index.f7626f62.css.map133355558412873643 0
+57C:\Users\Owner\Desktop\javascript\starter\dist\index.html133354822026659906 0
+66C:\Users\Owner\Desktop\javascript\starter\dist\starter.3464ddca.js133354776574736836 0
