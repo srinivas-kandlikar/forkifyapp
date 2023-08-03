@@ -608,6 +608,7 @@ const showRecipe = async function() {
         function datafetch(recipedata) {
             var completefetch = recipedata.data.recipe;
             // console.log(recipedata);
+            console.log("i am test");
             //   console.log(completefetch.id)
             //   console.log(completefetch.title)
             // console.log(completefetch.publisher)
