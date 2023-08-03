@@ -1,5 +1,5 @@
 import icons from 'url:../img/icons.svg';
-
+console.log(icons);
 
 const recipeContainer = document.querySelector('.recipe');
 
