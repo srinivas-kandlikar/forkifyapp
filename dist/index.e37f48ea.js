@@ -580,7 +580,6 @@ var _iconsSvgDefault = parcelHelpers.interopDefault(_iconsSvg);
 var _fractional = require("fractional");
 var _config = require("./config");
 //console.log(Fraction);
-console.log((0, _config.API_URL) + "/5ed6604591c37cdc054bcc40");
 const recipeContainer = document.querySelector(".recipe");
 const timeout = function(s) {
     return new Promise(function(_, reject) {
@@ -590,14 +589,16 @@ const timeout = function(s) {
     });
 };
 var path = window.location.href;
+//https://forkify-api.herokuapp.com/api/v2/recipes/5ed6604591c37cdc054bc90b
+//https://forkify-api.herokuapp.com/api/v2/recipes/$%7Bid%7D
+//https://forkify-api.herokuapp.com/api/v2/recipes/$%7Bid%7D
 // https://forkify-api.herokuapp.com/v2
 ///////////////////////////////////////
 //console.log('hi srinivas im react project')
 //loader
 const renderSpinner = function(parentEl) {
-    const markup = ` <div class="testspinner">
-<h1 style ="background-color:blue ">hhhkbk</h1>
-</div>`;
+    const markup = `<div class="loader"></div>
+`;
     parentEl.innerHTML = "";
     parentEl.insertAdjacentHTML("afterbegin", markup);
 };
@@ -610,10 +611,13 @@ const renderSpinner = function(parentEl) {
 //locading recipe data 
 const showRecipe = async function() {
     try {
+        const id = window.location.hash.slice(1);
+        // console.log(`https://forkify-api.herokuapp.com/api/v2/recipes/${id}`);
         renderSpinner(recipeContainer);
-        const res = await fetch("https://forkify-api.herokuapp.com/api/v2/recipes/5ed6604591c37cdc054bcc40");
+        const res = await fetch(`https://forkify-api.herokuapp.com/api/v2/recipes/${id}`);
         const data = await res.json();
-        console.log(data);
+        //console.log(data);
+        if (!id) return;
         function datafetch(recipedata) {
             var completefetch = recipedata.data.recipe;
             // console.log(recipedata);
@@ -632,7 +636,7 @@ const showRecipe = async function() {
             var cooking_time = completefetch.cooking_time;
             var ingredients = completefetch.ingredients;
             var source_url = completefetch.source_url;
-            console.log(id);
+            //console.log(id)
             var test = completefetch.ingredients;
             // test.forEach(x => {
             //   var a  = x.quantity;
@@ -743,7 +747,8 @@ const showRecipe = async function() {
         console.log(err);
     }
 };
-showRecipe(); // var a  = async function (){
+window.addEventListener("hashchange", showRecipe);
+window.addEventListener("load", showRecipe) // var a  = async function (){
  //   try{
  //     const res = await fetch('https://forkify-api.herokuapp.com/api/v2/recipes/5ed6604591c37cdc054bc886');
  //     const data = await res.json();
@@ -757,8 +762,9 @@ showRecipe(); // var a  = async function (){
  //to get the location of window
  //console.log(window.location);
  //console.log(window.location.href);
+;
 
-},{"url:../img/icons.svg":"loVOp","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","fractional":"3SU56","./config":"k5Hzs"}],"loVOp":[function(require,module,exports) {
+},{"url:../img/icons.svg":"loVOp","fractional":"3SU56","./config":"k5Hzs","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"loVOp":[function(require,module,exports) {
 module.exports = require("9bcc84ee5d265e38").getBundleURL("hWUTQ") + "icons.dfd7a6db.svg" + "?" + Date.now();
 
 },{"9bcc84ee5d265e38":"lgJ39"}],"lgJ39":[function(require,module,exports) {
@@ -795,36 +801,6 @@ function getOrigin(url) {
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
 exports.getOrigin = getOrigin;
-
-},{}],"gkKU3":[function(require,module,exports) {
-exports.interopDefault = function(a) {
-    return a && a.__esModule ? a : {
-        default: a
-    };
-};
-exports.defineInteropFlag = function(a) {
-    Object.defineProperty(a, "__esModule", {
-        value: true
-    });
-};
-exports.exportAll = function(source, dest) {
-    Object.keys(source).forEach(function(key) {
-        if (key === "default" || key === "__esModule" || dest.hasOwnProperty(key)) return;
-        Object.defineProperty(dest, key, {
-            enumerable: true,
-            get: function() {
-                return source[key];
-            }
-        });
-    });
-    return dest;
-};
-exports.export = function(dest, destName, get) {
-    Object.defineProperty(dest, destName, {
-        enumerable: true,
-        get: get
-    });
-};
 
 },{}],"3SU56":[function(require,module,exports) {
 /*
@@ -1085,6 +1061,36 @@ parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "API_URL", ()=>API_URL);
 const API_URL = "https://forkify-api.herokuapp.com/api/v2/recipes/";
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["aD7Zm","aenu9"], "aenu9", "parcelRequire3a11")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
+exports.interopDefault = function(a) {
+    return a && a.__esModule ? a : {
+        default: a
+    };
+};
+exports.defineInteropFlag = function(a) {
+    Object.defineProperty(a, "__esModule", {
+        value: true
+    });
+};
+exports.exportAll = function(source, dest) {
+    Object.keys(source).forEach(function(key) {
+        if (key === "default" || key === "__esModule" || dest.hasOwnProperty(key)) return;
+        Object.defineProperty(dest, key, {
+            enumerable: true,
+            get: function() {
+                return source[key];
+            }
+        });
+    });
+    return dest;
+};
+exports.export = function(dest, destName, get) {
+    Object.defineProperty(dest, destName, {
+        enumerable: true,
+        get: get
+    });
+};
+
+},{}]},["aD7Zm","aenu9"], "aenu9", "parcelRequire3a11")
 
 //# sourceMappingURL=index.e37f48ea.js.map

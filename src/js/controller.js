@@ -3,7 +3,6 @@ import icons from 'url:../img/icons.svg';
 import { Fraction } from 'fractional';
 import { API_URL } from './config';
 //console.log(Fraction);
-console.log(API_URL+'/5ed6604591c37cdc054bcc40');
 
 const recipeContainer = document.querySelector('.recipe');
 
@@ -19,6 +18,11 @@ const timeout = function (s) {
 var path = window.location.href;
 
 
+//https://forkify-api.herokuapp.com/api/v2/recipes/5ed6604591c37cdc054bc90b
+
+
+//https://forkify-api.herokuapp.com/api/v2/recipes/$%7Bid%7D
+//https://forkify-api.herokuapp.com/api/v2/recipes/$%7Bid%7D
 
 
 // https://forkify-api.herokuapp.com/v2
@@ -27,9 +31,8 @@ var path = window.location.href;
 //console.log('hi srinivas im react project')
 //loader
 const renderSpinner = function(parentEl){
-  const markup =` <div class="testspinner">
-<h1 style ="background-color:blue ">hhhkbk</h1>
-</div>`
+  const markup =`<div class="loader"></div>
+`
 parentEl.innerHTML='';
 parentEl.insertAdjacentHTML('afterbegin', markup);
 };
@@ -47,10 +50,13 @@ parentEl.insertAdjacentHTML('afterbegin', markup);
 //locading recipe data 
 const showRecipe = async function(){
   try{
+    const id = window.location.hash.slice(1);
+   // console.log(`https://forkify-api.herokuapp.com/api/v2/recipes/${id}`);
     renderSpinner(recipeContainer);
-    const res = await fetch('https://forkify-api.herokuapp.com/api/v2/recipes/5ed6604591c37cdc054bcc40');
+    const res = await fetch(`https://forkify-api.herokuapp.com/api/v2/recipes/${id}`);
     const data = await res.json();
- console.log(data);
+ //console.log(data);
+if(!id) return;
 
   function datafetch(recipedata){
     var completefetch = recipedata.data.recipe;
@@ -73,7 +79,7 @@ var title = completefetch.title;
 var cooking_time = completefetch.cooking_time;
   var ingredients = completefetch.ingredients;
   var source_url = completefetch.source_url;
-console.log(id)
+//console.log(id)
   var test = completefetch.ingredients;
 
   // test.forEach(x => {
@@ -186,10 +192,12 @@ console.log(id)
 }
 catch(err){
   console.log(err);
-
 }
 };
-showRecipe();
+
+window.addEventListener('hashchange',showRecipe)
+window.addEventListener('load',showRecipe)
+
 
 
 
@@ -208,4 +216,3 @@ showRecipe();
 //to get the location of window
 //console.log(window.location);
 //console.log(window.location.href);
-
