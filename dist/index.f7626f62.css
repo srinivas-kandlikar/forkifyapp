@@ -264,6 +264,35 @@ body {
   display: block;
 }
 
+.loader {
+  border: 16px solid #f3f3f3;
+  border-top-color: #3498db;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: 2s linear infinite spin;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 .search {
   background-color: #fff;
   border-radius: 10rem;
