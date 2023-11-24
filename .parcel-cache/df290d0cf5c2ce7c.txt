@@ -24,7 +24,7 @@
 90C:\Users\Owner\Desktop\javascript\starter\node_modules\htmlparser2\lib\WritableStream.d.ts133352984617539844 0
 91C:\Users\Owner\Desktop\javascript\starter\node_modules\caniuse-lite\data\features\tls1-2.js133352984668976975 0
 102C:\Users\Owner\Desktop\javascript\starter\node_modules\css-select\lib\pseudo-selectors\subselects.d.ts133352984647885821 0
-46C:\Users\Owner\Desktop\javascript\starter\dist133453246965742343 1
+46C:\Users\Owner\Desktop\javascript\starter\dist133453255295023732 1
 86C:\Users\Owner\Desktop\javascript\starter\node_modules\source-map-js\lib\quick-sort.js133352984601634591 0
 53C:\Users\Owner\Desktop\javascript\starter\.prettierrc133319533538626985 0
 82C:\Users\Owner\Desktop\javascript\starter\node_modules\@swc\helpers\_\_await_value133352984657274684 1
@@ -56,7 +56,7 @@
 91C:\Users\Owner\Desktop\javascript\starter\node_modules\@parcel\codeframe\test\fixtures\a.js133352984587693392 0
 63C:\Users\Owner\Desktop\javascript\starter\node_modules\chokidar133352986621155499 1
 81C:\Users\Owner\Desktop\javascript\starter\node_modules\node-releases\package.json133352984591832914 0
-52C:\Users\Owner\Desktop\javascript\starter\index.html133453244209527307 0
+52C:\Users\Owner\Desktop\javascript\starter\index.html133453253279242248 0
 77C:\Users\Owner\Desktop\javascript\starter\node_modules\timsort\src\timsort.js133352984605201622 0
 111C:\Users\Owner\Desktop\javascript\starter\node_modules\csso\lib\restructure\prepare\createDeclarationIndexer.js133352984642503271 0
 54C:\Users\Owner\Desktop\javascript\starter\node_modules133436895036597621 1
@@ -6073,8 +6073,8 @@
 68C:\Users\Owner\Desktop\javascript\starter\dist\index.7d5dcc72.js.map133436895036220279 0
 65C:\Users\Owner\Desktop\javascript\starter\dist\index.c501e4db.css133436895036232600 0
 69C:\Users\Owner\Desktop\javascript\starter\dist\index.c501e4db.css.map133436895036256382 0
-64C:\Users\Owner\Desktop\javascript\starter\dist\index.e37f48ea.js133453243454598667 0
-68C:\Users\Owner\Desktop\javascript\starter\dist\index.e37f48ea.js.map133453243454945855 0
+64C:\Users\Owner\Desktop\javascript\starter\dist\index.e37f48ea.js133453248290987972 0
+68C:\Users\Owner\Desktop\javascript\starter\dist\index.e37f48ea.js.map133453248291128367 0
 69C:\Users\Owner\Desktop\javascript\starter\dist\index.f7626f62.css.map133453243455410227 0
-57C:\Users\Owner\Desktop\javascript\starter\dist\index.html133453246965672308 0
+57C:\Users\Owner\Desktop\javascript\starter\dist\index.html133453255294845588 0
 64C:\Users\Owner\Desktop\javascript\starter\dist\logo.8f52e69c.png133436895036476907 0
