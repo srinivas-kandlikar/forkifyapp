@@ -5,6 +5,57 @@ import { API_URL } from './config';
 //console.log(Fraction);
 
 const recipeContainer = document.querySelector('.recipe');
+const reciepesidebar = document.querySelector('.results');
+
+var sidebardata = async function (){
+  try{
+  const res = await fetch(`https://forkify-api.herokuapp.com/api/v2/recipes/5ed6604591c37cdc054bc90b/`);
+  const data = await res.json();
+var a  = data.data.recipe.id;
+var b  = data.data.recipe.title;
+//var c  = data.data.recipe.description;
+
+var img = data.data.recipe.source_url;
+
+reciepesidebar.innerHTML = ` <div class="search-results">
+<p id ="testload"></p>
+<div class="results">
+  <a href ="#5ed6604591c37cdc054bc90b">ab recipe</a>
+  <a href ="#5ed6604591c37cdc054bc90b"> recipe2</a>
+
+  <li class="preview">
+    <a class="preview__link preview__link--active" href=${a}>
+      <figure class="preview__fig">
+        <img src="${img}" alt="Test" />
+      </figure>
+      <div class="preview__data">
+        <h4 class="preview__title">${b}</h4>
+        <p class="preview__publisher">The Pioneer Woman</p>
+        <div class="preview__user-generated">
+          <svg>
+            <use href="src/img/icons.svg#icon-user"></use>
+          </svg>
+        </div>
+      </div>
+    </a>
+  </li>
+
+  </div>`;
+
+}
+  catch(err){
+    console.log(err)
+
+  }
+
+}
+
+sidebardata();
+
+
+//var geturllink = document.getElementsByClassName('results');
+//var childtest = geturllink;
+//console.log(childtest.childNode);
 
 const timeout = function (s) {
   return new Promise(function (_, reject) {
@@ -31,8 +82,8 @@ var path = window.location.href;
 //console.log('hi srinivas im react project')
 //loader
 const renderSpinner = function(parentEl){
-  const markup =`<div class="loader"></div>
-`
+  const markup =`<div class="loader"></div>`
+  
 parentEl.innerHTML='';
 parentEl.insertAdjacentHTML('afterbegin', markup);
 };
@@ -48,6 +99,33 @@ parentEl.insertAdjacentHTML('afterbegin', markup);
 // var xyz = abctest()
 
 //locading recipe data 
+
+// const showReceipetest = async function(id){
+
+
+//   var pageurl = window.location.href;
+//   console.log(pageurl);
+
+// var fedata = await fetch(`https://forkify-api.herokuapp.com/api/v2/recipes/${id}`);
+// //console.log(fedata)
+// const dat = await fedata.json();
+// console.log(dat.data.recipe.ingredients);
+// var xyz = dat.data.recipe.ingredients
+// var test  = xyz.forEach(x => {
+//   console.log(x);
+//   console.log(x.quantity)
+  
+// });
+
+// }
+
+//showReceipetest('5ed6604591c37cdc054bc90b');
+
+
+
+
+
+
 const showRecipe = async function(){
   try{
     const id = window.location.hash.slice(1);
@@ -57,6 +135,10 @@ const showRecipe = async function(){
     const data = await res.json();
  //console.log(data);
 if(!id) return;
+
+
+
+
 
   function datafetch(recipedata){
     var completefetch = recipedata.data.recipe;
@@ -196,7 +278,7 @@ catch(err){
 };
 
 window.addEventListener('hashchange',showRecipe)
-window.addEventListener('load',showRecipe)
+//window.addEventListener('load',showRecipe)
 
 
 
@@ -216,3 +298,11 @@ window.addEventListener('load',showRecipe)
 //to get the location of window
 //console.log(window.location);
 //console.log(window.location.href);
+
+
+//  var t = document.getElementById('testnew');
+//  function abcde(){
+//   return (
+// t.innerHTML ="ssdgsgsgsdg")
+//  }
+//  abcde();
